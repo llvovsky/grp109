@@ -1,30 +1,27 @@
 /* Adding  CSS Basic. Added by Lev Lvovsky*/
 
 .row{
-position:relative;
-margin-left:10%;
-margin-right:10%;
+position: relative;
+margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+height: 60px;
 }
 
 .white{
 border: 1px solid black;
 width: 10%;
-height: 60px;
-background-color:white;
-float:left;
+height: 100%;
+background-color: white;
+float: left;
 }
 
 .black{
 border: 1px solid black;
 width: 10%;
-height: 60px;
-background-color:#787878;
-float:left;
-}
-
-
-#clear{
-clear:both; 
+height: 100%;
+background-color :#787878;
+float: left;
 }
 
 /* The footer styling. Added by Lev Lvovsky*/
