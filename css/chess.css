@@ -1,34 +1,22 @@
 /* Adding  CSS Basic. */
 
-body {
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 20px;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-#title {
-  margin-bottom: 40px;
-}
-
 .chessboard {
-  width: 90vw; 
-  max-width: 480px; 
+  width: 90vw;
+  max-width: 480px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .row {
   width: 100%;
-  clear: both;  
+  clear: both;
 }
 
 .white, .black {
   float: left;
   width: 12.5%;
-  aspect-ratio: 1 / 1; 
-  box-sizing: border-box; 
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
   border: 1px solid black;
 }
 
@@ -39,7 +27,6 @@ body {
 .black {
   background-color: #787878;
 }
-
 
 /* The footer styling. */
 #footer {
