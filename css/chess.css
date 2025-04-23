@@ -10,7 +10,7 @@
 
 .white, .black {
   border: 1px solid black;
-  width: 12.5%; /* 100% / 8 squares = 12.5% */
+  width: 12.5%; 
   height: 100%;
   float: left;
 }
