@@ -27,7 +27,7 @@ body {
 .white, .black {
   float: left;
   width: 12.5%;
-  height: 100%;
+  aspect-ratio: 1 / 1; 
   border: 1px solid black;
 }
 
