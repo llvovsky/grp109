@@ -1,28 +1,41 @@
 /* Adding  CSS Basic. Added by Lev Lvovsky*/
 
-.row{
-position: relative;
-margin-left: 10%;
-margin-right: 10%;
-width: 80%;
-height: 60px;
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-.white{
-border: 1px solid black;
-width: 10%;
-height: 100%;
-background-color: white;
-float: left;
+.chessboard {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.black{
-border: 1px solid black;
-width: 10%;
-height: 100%;
-background-color :#787878;
-float: left;
+.row {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  clear: both;
 }
+
+.white {
+  float: left;
+  width: 12.5%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.black {
+  float: left;
+  width: 12.5%;
+  height: 100%;
+  background-color: #787878;
+  border: 1px solid black;
+}
+
 
 /* The footer styling. Added by Lev Lvovsky*/
 #footer {
