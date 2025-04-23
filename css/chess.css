@@ -1,43 +1,30 @@
-/* Adding  CSS Basic. Added by Lev Lvovsky*/
-
-body {
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 20px;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.chessboard {
-  width: 80%;
-  margin: 0 auto;
-}
+/* Adding  CSS Basic. */
 
 .row {
   position: relative;
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   height: 60px;
-  clear: both;
+}
+
+.white, .black {
+  border: 1px solid black;
+  width: 12.5%; /* 100% / 8 squares = 12.5% */
+  height: 100%;
+  float: left;
 }
 
 .white {
-  float: left;
-  width: 12.5%;
-  height: 100%;
   background-color: white;
-  border: 1px solid black;
 }
 
 .black {
-  float: left;
-  width: 12.5%;
-  height: 100%;
   background-color: #787878;
-  border: 1px solid black;
 }
 
 
-/* The footer styling. Added by Lev Lvovsky*/
+/* The footer styling. */
 #footer {
  border:solid 1px;
  padding: 10px;
