@@ -1,1 +1,8 @@
 
+
+/* The footer styling. Added by Lev Lvovsky*/
+#footer {
+ border:solid 1px;
+ padding: 10px;
+ margin:10px;
+}
