@@ -1,5 +1,5 @@
 body{
-  background-image: url('/../images/BackgroundsWallpaper.jpg');
+  background-image: url('../images/BackgroundsWallpaper.jpg');  
 }
 #title {
 position:fixed;
