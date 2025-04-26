@@ -1,40 +1,42 @@
 body{
   background-image: url('../images/BackgroundsWallpaper.jpg');  
 }
+
+/* Set 1: Header style updated by Divyalakshana Perumal Rajaram */
 #title {
 position:fixed;
 top:0px;
 left:0px;
 padding:10px;
-margin:0px;
-margin-bottom: 20px; 
+margin:0%; 
 width:100%;
 background-color:#62C2CE;
 text-align:center;
 z-index:10;
-font-family: 'JustLettersMedium';
+font-family: 'Libre Caslon Display';
 font-weight: normal;
 font-style: normal;
-font-size:36px;
+font-size:80px;
 }
 
 img {
  margin-left: 5px;
  margin-top:10px;
+ width:50%  
  }
 
 .chessboard {
-  width: 90vw;
-  max-width: 480px;
-  margin: 0 auto;
-  margin-top: 80px; 
-  overflow: hidden;
+ margin-top:15%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:10%;
+ overflow: hidden;  
 }
 
-
 .row {
-  width: 100%;
-  clear: both;
+  position: relative;
+  margin-left:10%
+  margin-right:10%
 }
 
 
@@ -59,9 +61,10 @@ img {
 #footer {
   border: solid 1px;
   padding: 10px;
-  margin: 10px;
+  margin: 0px;
   text-align: center;
-  background-color:#7EB5BD;  
+  background-color:#7EB5BD;
+  width:100%;
 }
 
 
